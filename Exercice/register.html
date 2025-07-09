@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+</head>
+<body>
+    <h1>Formulaire d'inscription</h1>
+    <form action="submit_registration.php" method="post">
+
+        <label for="first_name">Prénom:</label><br>
+        <input type="text" id="first_name" name="first_name" required><br><br>
+
+        <label for="last_name">Nom:</label><br>
+        <input type="text" id="last_name" name="last_name" required><br><br>
+
+        <label for="adress">Adresse:</label><br>
+        <input type="text" id="adress" name="adress" required><br><br>
+
+        <label for="city">Ville:</label><br>
+        <input type="text" id="city" name="city" required><br><br>
+
+        <label for="postal_code">Code postal:</label><br>
+        <input type="text" id="postal_code" name="postal_code" required><br><br>
+
+        <label for="country">Pays:</label><br>
+        <input type="text" id="country" name="country" required><br><br>
+
+        <label for="phone_number">Numéro de téléphone:</label><br>
+        <input type="tel" id="phone_number" name="phone_number" required><br><br>
+
+        <label for="birth_date">Date de naissance:</label><br>
+        <input type="date" id="birth_date" name="birth_date" required><br><br>  
+
+        <p>Votre langue préférée.</p>
+        <form>        
+            <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">Français</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">          
+        <label for="anglais">Anglais</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="espagnol">Espagnol</label><br>
+
+        </form><br>
+
+        <p>Inserer votre photo de profil</p>
+        <form>
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile">
+        </form><br
+        
+
+
+        <label for="username">Nom d'utilisateur:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Mot de passe:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <input type="submit" value="S'inscrire">
+
+        
+        
+        </form>
+        <p>En cliquant sur "S'inscrire", vous acceptez nos <a href="#">Conditions d'utilisation</a> et notre <a href="#">Politique de confidentialité</a>.</p>
+        <p>Vous avez déjà un compte? <a href="login.html">Connectez-vous ici</a>.</p>   
+
+    </form>
+    
+</body>
+</html>
