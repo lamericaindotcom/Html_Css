@@ -7,8 +7,20 @@
 </head>
 <body>
     <h1>Formulaire d'inscription</h1>
+    <fieldset>
+        <legend><strong>Informations personnelles</strong></legend>
+        <p>Veuillez remplir les informations suivantes pour vous inscrire.</p>
     <form action="submit_registration.php" method="post">
+        
+        <label><strong>Genre:</strong></label><br><br>   
 
+        <form action="/action_page.php">
+        <input type="checkbox" id="femme" name="femme" value="Bike">
+        <label for="vehicle1"> Femme</label><br>
+        <input type="checkbox" id="homme" name="homme" value="Car">
+        <label for="vehicle2"> Homme</label><br>
+        <input type="checkbox" id="autre" name="autre" value="Boat">
+        <label for="vehicle3"> Autres</label><br><br>
         <label for="first_name">Prénom:</label><br>
         <input type="text" id="first_name" name="first_name" required><br><br>
 
@@ -31,27 +43,34 @@
         <input type="tel" id="phone_number" name="phone_number" required><br><br>
 
         <label for="birth_date">Date de naissance:</label><br>
-        <input type="date" id="birth_date" name="birth_date" required><br><br>  
+        <input type="date" id="birth_date" name="birth_date" required><br><br> 
+        </fieldset> 
 
+        <fieldset>
+        <legend><strong>Préférences</strong></legend>
         <p>Votre langue préférée.</p>
         <form>        
-            <input type="radio" id="html" name="fav_language" value="HTML">
+        <input type="radio" id="html" name="fav_language" value="HTML">
         <label for="html">Français</label><br>
         <input type="radio" id="css" name="fav_language" value="CSS">          
         <label for="anglais">Anglais</label><br>
         <input type="radio" id="javascript" name="fav_language" value="JavaScript">
         <label for="espagnol">Espagnol</label><br>
+        
 
         </form><br>
 
         <p>Inserer votre photo de profil</p>
         <form>
-        <label for="myfile">Select a file:</label>
+        <label for="myfile">Sélectionner  un fichier:</label>
         <input type="file" id="myfile" name="myfile">
-        </form><br
+        </form><br>
+        </fieldset>
+
         
 
-
+        <fieldset>
+        <legend><strong>Information de connexion</strong></legend>
         <label for="username">Nom d'utilisateur:</label><br>
         <input type="text" id="username" name="username" required><br><br>
 
@@ -66,6 +85,7 @@
         
         
         </form>
+        <fieldset>
         <p>En cliquant sur "S'inscrire", vous acceptez nos <a href="#">Conditions d'utilisation</a> et notre <a href="#">Politique de confidentialité</a>.</p>
         <p>Vous avez déjà un compte? <a href="login.html">Connectez-vous ici</a>.</p>   
 
