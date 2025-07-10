@@ -1,2 +1,24 @@
-body {background-color: rgb(rgb(16, 135, 182));}
+body {
+    font-family: pbio-bold, arial, sans serif; 
+    background-color: #e5e4dc;
+    color: #313542;
+    margin: 20%;
+    padding:0 0 40px 0;
+
+    h1 {font-family: pbio, Arial, Helvetica, sans-serif;}
+
+    p {font-family:Roboto, Oxygen, Ubuntu, Cantarell,}
+
+    input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ff7533;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+    
+    ;}
 
