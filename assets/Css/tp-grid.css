@@ -1,0 +1,34 @@
+
+#container{
+
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ grid-template-rows: repeat(3,auto) ;
+
+ 
+}
+
+h1{ 
+  
+    
+}
+
+nav{
+
+
+}
+
+
+
+#article {
+    grid-column: 2/3;
+}
+
+footer {
+    grid-column: 5;
+}
+
+
+
+
+
